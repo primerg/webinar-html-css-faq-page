@@ -1,0 +1,180 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+body {
+    color: #999;
+    font-family: "Helvetica",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0; padding: 0;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+header {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px;
+}
+
+.header-content {
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+  
+}
+.logo img {
+    width: 200px;
+}
+.user-menu {
+    float: right;
+}
+
+.user-menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   NAV
+   ========================================================================== */
+
+nav {
+    background-color:black;
+    padding: 0px;
+}
+
+nav ul {
+    padding: 0; margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background: gray;
+}
+
+nav ul li:first-child {
+    padding-left: 0;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ==========================================================================
+   CONTENT
+   ========================================================================== */
+
+section {
+    padding:10px; 
+}
+
+section .left {
+    float: left;
+    width: 60%;
+}
+
+section .right {
+    float: right;
+    width: 30%;
+}
+
+section .right img {
+    width: 100%;
+}
+
+section .clear {
+    clear: both;
+}
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    padding:5px; 
+    overflow: hidden;
+
+    text-transform: uppercase;
+}
+
+footer .col {
+    float: left;
+    width: 25%;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer ul {
+    margin: 0; padding: 0;
+}
+footer ul li {
+    list-style: none;
+}
+
+
+/* ==========================================================================
+   FAQ Animated
+   ========================================================================== */
+
+#faq2 .faq-items ul {
+    list-style: none; padding: 0;
+}
+
+#faq2 .faq-items li p {
+    display: none;
+    background: #ccc;
+    padding: 10px;
+}
+
+#faq2 .faq-items li:hover p {
+    display: block;
+}
